@@ -1,0 +1,72 @@
+/* Definir estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilizar o cabeçalho */
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  /* Estilizar o título do cabeçalho */
+  header h2 {
+    margin: 0;
+    
+  }
+  
+  /* Estilizar a div da tela de login */
+  .telaDeLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+  }
+  
+  /* Estilizar o formulário */
+  form {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilizar os rótulos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilizar as entradas de texto */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizar o botão de envio */
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilizar o botão de envio quando o cursor passa sobre ele */
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  body{background-color: #000000;}
